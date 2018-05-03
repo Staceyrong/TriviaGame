@@ -1,6 +1,6 @@
 
-.btn {
-    margin: 0 auto;
+botton {
+    text-align: center;
     float: center;
 }
 
@@ -15,3 +15,8 @@ h1 {
     padding: 20px;
     
 }
+
+h6:hover {
+    background: red;
+}
+
