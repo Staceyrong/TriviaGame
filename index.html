@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Timed Trivia</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10" id = "main">
+            <h1>Totally Trivial Trivia</h1>
+            <button type="button" class="btn btn-outline-success">Start</button>
+          </div>
+          <div class="col-sm-1"></div> 
+        </div>
+
+        <div class="questionPage" style="display: none;">
+			<div class="row">
+              <div class = "col-sm-1"></div>
+              <div class = "col-sm-10">
+				<div class="timer text-center"></div>
+				<div class="text text-center"></div>
+				<div class="result text-center"></div>
+                <div class="options text-center"></div>
+              </div>
+              <div class = "col-sm-1"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+    </div>
+</body>
+</html>
