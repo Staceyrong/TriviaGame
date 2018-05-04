@@ -16,7 +16,7 @@ h1 {
     
 }
 
-h6:hover {
+.answerChoice:hover {
     background: red;
 }
 
