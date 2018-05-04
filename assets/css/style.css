@@ -1,22 +1,26 @@
 
-botton {
+
+#main {
+    margin: 50px auto;
     text-align: center;
     float: center;
 }
 
 
 .container{
-    background: pink;
+    background-image: url("https://cdn.xl.thumbs.canstockphoto.com/the-colorful-word-trivia-on-table-the-colorful-word-trivia-on-wooden-table-stock-photograph_csp41627092.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-bottom: 750px;
 }
 
 h1 {
     text-align: center;
     padding: 20px;
-    
+
 }
 
 .answerChoice:hover {
-    background: red;
+    background:grey;
 }
 
